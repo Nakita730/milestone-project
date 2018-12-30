@@ -1,0 +1,107 @@
+body{
+	font-family:'PT Sans Narrow', sans-serif;
+}
+
+/******grid***/
+
+.full-width{
+	width:1200px;
+}
+.half-width{
+	width:600px;
+	float:left;
+}
+/***header style****/
+
+header {
+	height:800px;
+	background-image: url("../img/desk.png");
+	background-size:cover;
+	padding:0;
+	margin:0;
+}
+header h1{
+	font-family:'PT Sans Narrow', sans-serif;
+	font-size:80px;
+	color: #393D3F;
+	text-align:center;
+	padding:65px 0 0 25px;
+}
+header span{
+	font-family: 'Charm', cursive;
+	color:#8DAA91;
+	font-size:80px;
+}
+header h2{
+	font-family:'PT Sans Narrow', sans-serif;
+	color:#304D6D;
+	font-size: 40px;
+	text-align: center;
+	padding:0 0 25px 150px;
+
+}
+/*****portfolio*****/
+#portfolio{
+	height: 1075px;
+	background-color:#C4CBCA;
+}
+ #portfolio h3{
+ 	font-family:'Charm', cursive;
+ 	font-size: 36px;
+ 	text-align: center;
+ 	font-weight: bold;
+ }
+
+ #portfolio h4{
+ 	font-family:'PT Sans Narrow', sans-serif;
+ 	font-size: 24px;
+ 	padding:155px 0 0 40px;
+ }
+#portfolio img{
+	float:left;
+	display: inline;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+/******about****/
+
+#about{
+	height:400px;
+	background-color:#46ACC2;
+	padding:0;
+}
+#about h3{
+	font-family:'Charm', cursive; 
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#about p{
+	font-size: 24px;
+}
+
+#about img{
+	padding:10px 10px 10px 10px;
+	border: 2px solid black;
+	margin: 20px 10px 10px 20px;
+}
+
+/*****contact******/
+#contact{
+	height:300px;
+	background-color:#8DAA91;
+	padding: 0;
+}
+#contact h3{
+	font-family: 'Charm', cursive;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+#contact h4{
+	font-size: 24px;
+	text-align: center;
+}
+#contact a{
+	padding: 0 25px 0 350px;
+}
